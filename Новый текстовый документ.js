@@ -41,7 +41,7 @@ function showCalendar(year, month) {
     table.appendChild(row);
   }
 
-  // Очищаем предыдущий календарь и добавляем новый
+  // Очищаем предыдущий календарь и добавляем новый !!!! Препод задал вопрос на эти строчки !!!!
   calendarContainer.innerHTML = "";
   calendarContainer.appendChild(header);
   calendarContainer.appendChild(table);
